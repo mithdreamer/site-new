@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta&#351; Ka&#287;&#305;t Makas</title>
+
+  <link rel="stylesheet" href="/css/global.css">
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<main>
+  <h1>Ta&#351; Ka&#287;&#305;t Makas</h1>
+
+  <p class="intro">Bir hamle se&#231; ve bilgisayara kar&#351;&#305; oyna.</p>
+
+  <section class="game-panel">
+    <div class="score-board">
+      <span>Sen: <strong id="playerScore">0</strong></span>
+      <span>Bilgisayar: <strong id="computerScore">0</strong></span>
+    </div>
+
+    <div class="choice-row">
+      <button type="button" data-choice="tas">Ta&#351;</button>
+      <button type="button" data-choice="kagit">Ka&#287;&#305;t</button>
+      <button type="button" data-choice="makas">Makas</button>
+    </div>
+
+    <div class="result-box" id="result">Bir se&#231;im yap.</div>
+
+    <button type="button" id="resetGame" class="secondary-button">S&#305;f&#305;rla</button>
+  </section>
+
+  <a class="back-link" href="/pages/oyunlar.html">Oyunlara d&#246;n</a>
+</main>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/tas-kagit-makas.js"></script>
+
+</body>
+</html>

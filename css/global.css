@@ -14,3 +14,139 @@ h1{
 #navbar {
   margin-top: 2rem;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+main {
+  width: min(760px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.intro {
+  color: #ddd;
+}
+
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.game-card {
+  display: block;
+  padding: 1.25rem;
+  color: white;
+  text-decoration: none;
+  background: #1b1b1b;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.game-card:hover {
+  border-color: orange;
+  transform: translateY(-2px);
+}
+
+.game-card h2 {
+  margin-top: 0;
+  color: orange;
+}
+
+.game-card p {
+  margin-bottom: 0;
+  color: #ddd;
+}
+
+.game-panel {
+  padding: 1.5rem;
+  background: #1b1b1b;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.score-board,
+.choice-row,
+.dice-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.dice-row {
+  align-items: center;
+}
+
+button {
+  min-width: 100px;
+  padding: 0.75rem 1rem;
+  color: #111;
+  font-weight: bold;
+  background: orange;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffb347;
+}
+
+.secondary-button {
+  margin-top: 1rem;
+  color: white;
+  background: #333;
+}
+
+.secondary-button:hover {
+  background: #4a4a4a;
+}
+
+.result-box {
+  min-height: 3.5rem;
+  padding: 1rem;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.result-box p {
+  margin-bottom: 0;
+}
+
+.dice {
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: bold;
+  color: orange;
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: orange;
+}

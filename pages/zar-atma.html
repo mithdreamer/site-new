@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zar Atma</title>
+
+  <link rel="stylesheet" href="/css/global.css">
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<main>
+  <h1>Zar Atma</h1>
+
+  <p class="intro">Zar at, bilgisayar&#305;n zar&#305;yla kar&#351;&#305;la&#351;t&#305;r.</p>
+
+  <section class="game-panel">
+    <div class="score-board">
+      <span>Sen: <strong id="playerDiceScore">0</strong></span>
+      <span>Bilgisayar: <strong id="computerDiceScore">0</strong></span>
+    </div>
+
+    <div class="dice-row">
+      <div>
+        <p>Senin zar&#305;n</p>
+        <div class="dice" id="playerDice">-</div>
+      </div>
+
+      <div>
+        <p>Bilgisayar</p>
+        <div class="dice" id="computerDice">-</div>
+      </div>
+    </div>
+
+    <button type="button" id="rollDice">Zar At</button>
+
+    <div class="result-box" id="diceResult">Zar atmak i&#231;in butona bas.</div>
+
+    <button type="button" id="resetDiceGame" class="secondary-button">S&#305;f&#305;rla</button>
+  </section>
+
+  <a class="back-link" href="/pages/oyunlar.html">Oyunlara d&#246;n</a>
+</main>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/zar-atma.js"></script>
+
+</body>
+</html>
