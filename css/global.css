@@ -119,6 +119,51 @@ button:hover {
   background: #4a4a4a;
 }
 
+.app-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.primary-link,
+.secondary-link {
+  display: inline-block;
+  min-width: 140px;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.primary-link {
+  color: #111;
+  background: orange;
+}
+
+.primary-link:hover {
+  background: #ffb347;
+}
+
+.secondary-link {
+  color: white;
+  background: #333;
+}
+
+.secondary-link:hover {
+  background: #4a4a4a;
+}
+
+.setup-note {
+  margin: 1.5rem 0 0;
+  color: #ddd;
+}
+
+code {
+  color: orange;
+}
+
 .result-box {
   min-height: 3.5rem;
   padding: 1rem;
