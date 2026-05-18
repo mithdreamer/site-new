@@ -11,6 +11,11 @@ h1{
   color:orange;
 }
 
+.welcome-name {
+  display: block;
+  text-align: center;
+}
+
 #navbar {
   margin-top: 2rem;
 }
